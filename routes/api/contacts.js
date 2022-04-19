@@ -12,7 +12,7 @@ const {
   removeContact,
   addContact,
   updateContact,
-} = require("../../models/controller");
+} = require("../../models/contacts");
 
 router.get("/", listContacts);
 
